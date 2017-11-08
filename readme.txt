@@ -113,19 +113,19 @@ F. Verziókezelés Git-el VS Code-ban (nagyon alap, opcionális):
 4. Visual Studio Code indítása - project betöltése
 5. Git inicializálása a 3. ("Y") ikonnal vagy Ctrl-Shift-G
    majd "Initialize Repository"-ra kattint (felül)
-6. Remote repository megadása új terminál ablakból (Ctr-Shift-ö)
-   "git remote add origin https://github.com/nitslaszlo/JedlikTsTemplate.git"
-   "git push -u origin master"
-7. ".gitignore" fájl létrehozása (opcionális):
+6. ".gitignore" fájl létrehozása (opcionális):
    Ctrl-N -el új fájl létrehozása
    A fájl tartalma:
-   node_modules
-   npm-debug.log
+   target
    (További mappák és fájlok megadhatóak, melyek nem kerülnek "feltöltésre")
    Ctrl-S -> .gitignore néven menteni a projekt főkönyvtárába
-8. Ctrl-Shift-G -> Commit message megadása, majd commit Ctrl-Enter -el
-9. Változások szinkronizálása ("feltöltés")
-   Alul a státus sorban balra "Synchronize Changes" -ra kattínt
+7. Remote repository megadása új terminál ablakból (Ctr-Shift-ö), első feltöltés
+   git commit -m "első feltöltés"
+   git remote add origin https://github.com/nitslaszlo/JedlikTsTemplate.git"
+   git push -u origin master
+8. Későbbi feltöltések:
+   Ctrl-Shift-G -> Commit message megadása, majd commit Ctrl-Enter -el
+   Változások szinkronizálása ("feltöltés"): Alul a státus sorban balra "Synchronize Changes" -ra kattínt
 
 G. VS Code editor beállítása:
 ==============================
