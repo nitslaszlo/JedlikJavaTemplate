@@ -59,6 +59,9 @@ B.  Projekt előkészítése (inicializálása)
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+6. Állományok létrehozása, szerkesztése a JedlikJavaTemplate sablon alapján:
+    - .vscode\settings.json
+    - .gitignore
 6. Első futattási kisérlet: F5-el Select Environment -> Java
    .vscode\launch.json létrejön automatikusan
 7. Újra F5, futtatható, tesztelhető a program
