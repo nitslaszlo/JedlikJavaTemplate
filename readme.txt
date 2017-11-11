@@ -7,6 +7,7 @@ A.  Fejlesztői környezet telepítése, beállítása
 ================================================
 1.  Redhat Open JDK letöltése, telepítése:
     https://developers.redhat.com/products/openjdk/download/
+    (Működik az új JDK v9-el is!)
 2.  Apache Maven letöltése, kicsomagolása (példában: "C:\Program Files")
     https://maven.apache.org/download.cgi
 3.  Git for windows telepítése (opcionális, git-hez):
@@ -15,7 +16,7 @@ A.  Fejlesztői környezet telepítése, beállítása
     kiadott "javac" parancs nem található: 
       1. Vezérlőpult/Rendszer/Speciális rendszerbeállítások/
          Speciális fül/Környezeti változók/Rendszerváltozók/Path-on dupla katt./Új...
-      2. "C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.151-1\bin"
+      2. "C:\Program Files\RedHat\java-1.9.0-openjdk-1.9.0.1-1\bin"
          hozzáadása (idézőjelek nélkül, telepített verzió szerint)
 5.  Keresési útvonal (path) bővítése, ha a parancssorból (CMD.EXE)
     kiadott "mvn -v" parancs nem található: 
@@ -28,7 +29,7 @@ A.  Fejlesztői környezet telepítése, beállítása
       1. Vezérlőpult/Rendszer/Speciális rendszerbeállítások/
          Speciális fül/Környezeti változók/Rendszerváltozók/Új...
       2. Válozó neve: JAVA_HOME
-         Változó értéke: "C:\Program Files\RedHat\java-1.8.0-openjdk-1.8.0.151-1"
+         Változó értéke: "C:\Program Files\RedHat\java-1.9.0-openjdk-1.9.0.1-1"
          hozzáadása (idézőjelek nélkül, telepített verzió szerint)
 7.  Visual Studio Code (továbbiakban VSCode) telepítése
     https://code.visualstudio.com/docs/setup/setup-overview
