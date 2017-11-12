@@ -121,7 +121,7 @@ F. Verziókezelés Git-el VS Code-ban (nagyon alap, opcionális):
    (További mappák és fájlok megadhatóak, melyek nem kerülnek "feltöltésre")
    Ctrl-S -> .gitignore néven menteni a projekt főkönyvtárába
 7. Remote repository megadása új terminál ablakból (Ctr-Shift-ö), első feltöltés
-   git commit -m "első feltöltés"
+   git commit -m "first upload"
    git remote add origin https://github.com/nitslaszlo/JedlikTsTemplate.git
    git push -u origin master
 8. Későbbi feltöltések:
