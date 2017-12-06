@@ -65,14 +65,17 @@ B.  Projekt előkészítése (inicializálása)
     - .gitignore
 6. Első futattási kisérlet: F5-el Select Environment -> Java
    .vscode\launch.json létrejön automatikusan
-7. Újra F5, futtatható, tesztelhető a program
-8. Első F1-re: Tasks: Run Task (begépeléssel kereshető)
+7. External konzol beállítása: 
+   launch.json állomány bővítése:
+   "console" : "externalTerminal",
+8. Újra F5, futtatható, tesztelhető a program
+9. Első F1-re: Tasks: Run Task (begépeléssel kereshető)
    No task to run found. Configure Tasks ...
    Create tasks.json file from template -> Maven
    .vscode\tasks.json létrejön automatikusan
-8. F1: Tasks: Run Task (begépeléssel kereshető)
-   test vagy verify task kiválasztása
-   Continue without scanning the task output
+10. F1: Tasks: Run Task (begépeléssel kereshető)
+    test vagy verify task kiválasztása
+    Continue without scanning the task output
 
 C.  Fejlesztés, tesztelés, futtatás
 ===================================

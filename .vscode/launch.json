@@ -10,6 +10,7 @@
             "request": "launch",
             "mainClass": "eu.jedlik.JedlikJavaTemplate.App",
             "projectName": "JedlikJavaTemplate",
+            "console" : "externalTerminal",
             "args": ""
         },
         {
