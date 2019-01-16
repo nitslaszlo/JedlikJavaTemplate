@@ -1,52 +1,31 @@
 ﻿
-=========================================
-=  VS Code - Java - Apache Maven - Git  =
-=========================================
+#  VS Code - Java JDK11 - Git
 
-A.  Fejlesztői környezet telepítése, beállítása
-================================================
-1.  Redhat Open JDK letöltése, telepítése:
+## Jáva fejlesztői környezet (JDK) telepítése, beállítása
+1.  Redhat Open JDK11 letöltése (pl.: java-11-openjdk-11.0.1.13-1.redhat.windows.x86_64.zip),<br>
+    bin, lib, conf, stb. mappák kicsomagolása pl.: C:\Program Files\RedHat\jdk11 mappába<br>
+    Kicsomagolható korlátozott felhasználó esetén pl.: C:\Users\felhasználó_neve\AppData\Roaming\jdk11 mappába is<br>
     https://developers.redhat.com/products/openjdk/download/
-    (Működik az új JDK v9-el is!)
-2.  Apache Maven letöltése, kicsomagolása (példában: "C:\Program Files")
-    https://maven.apache.org/download.cgi
-3.  Git for windows telepítése (opcionális, git-hez):
+2.  Git for windows telepítése (opcionális, git-hez):
     https://git-for-windows.github.io/
-4.  Keresési útvonal (path) bővítése, ha a parancssorból (CMD.EXE)
-    kiadott "javac" parancs nem található: 
-      1. Vezérlőpult/Rendszer/Speciális rendszerbeállítások/
-         Speciális fül/Környezeti változók/Rendszerváltozók/Path-on dupla katt./Új...
-      2. "C:\Program Files\RedHat\java-1.9.0-openjdk-1.9.0.1-1\bin"
-         hozzáadása (idézőjelek nélkül, telepített verzió szerint)
-5.  Keresési útvonal (path) bővítése, ha a parancssorból (CMD.EXE)
-    kiadott "mvn -v" parancs nem található: 
-      1. Vezérlőpult/Rendszer/Speciális rendszerbeállítások/
-         Speciális fül/Környezeti változók/Rendszerváltozók/Path-on dupla katt./Új...
-      2. "C:\Program Files\apache-maven-3.5.2\bin"
-         hozzáadása (idézőjelek nélkül, telepített verzió szerint)
-6.  JAVA_HOME környezeti változó definiálása, ha a parancssorból (CMD.EXE)
-    kiadott "echo %JAVA_HOME%" parancs "%JAVA_HOME%"-ot ír ki
-      1. Vezérlőpult/Rendszer/Speciális rendszerbeállítások/
-         Speciális fül/Környezeti változók/Rendszerváltozók/Új...
-      2. Válozó neve: JAVA_HOME
-         Változó értéke: "C:\Program Files\RedHat\java-1.9.0-openjdk-1.9.0.1-1"
-         hozzáadása (idézőjelek nélkül, telepített verzió szerint)
-7.  Visual Studio Code (továbbiakban VSCode) telepítése
+3.  Visual Studio Code user version (továbbiakban VSCode) letöltése, telepítése<br>
     https://code.visualstudio.com/docs/setup/setup-overview
-8.  VSCode futtatása, Visual Studio Extensions telepítése: Ctrl-Shift-X
+4.  VSCode futtatása, kiterjesztések (Extensions) telepítése: Ctrl-Shift-X
     Kiterjesztés keresése, telepítés:
-     - Java Extension Pack (Microsoft)
-     - vscode-pfd
-9.  Billentyűkombinációk beállítása: 
-    File\Preferences\Keyboard Shortcuts menüvel, vagy Ctrl-K majd Ctrl-S
-    Parancs keresése: gépeléssel
-    Hozzárendelés, módosítás: "ceruza" ikonra kattíntással, törlés: Del bill.
+     - Language Support for Java(TM) by Red Hat<br>
+       https://marketplace.visualstudio.com/items?itemName=redhat.java
+     - Debugger for Java (Microsoft)
+     - GitLens — Git supercharged<br>
+       https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
+5.  Billentyűkombinációk beállítása:<br>
+    File\Preferences\Keyboard Shortcuts menüvel, vagy Ctrl-K majd Ctrl-S<br>
+    Parancs keresése: gépeléssel<br>
+    Hozzárendelés, módosítás: "ceruza" ikonra kattíntással, törlés: Del bill.<br>
     - gépel: "delete" > parancs: "Delete Line" > hozzárendel: Ctrl-L
     - opcionális: további billentyűkombinációk hozzárendelése tetszés szerint
-11. Opcionális: VSCode beállítása: lsd. az oldal végén
+6.. Opcionális: VSCode beállítása: lsd. az oldal végén
 
-B.  Projekt előkészítése (inicializálása)
-=========================================
+## Projekt előkészítése (inicializálása)
 1. Parancssor futtatása (CMD.EXE)
 2. "CD projektek_szülőmappája" (ide kerül majd a "programNeve" mappa)
 3. "JedlikJavaTemplate" név átírása "programNeve"-re (2x), (eu.jedlik is átírható!) majd a parancs futtatása:
