@@ -8,7 +8,7 @@
     https://developers.redhat.com/products/openjdk/download/
 2.  Git for windows telepítése (opcionális, git-hez):<br>
     https://git-for-windows.github.io/
-3.  Visual Studio Code User Installer (továbbiakban VSCode) letöltése, telepítése<br>
+3.  Visual Studio Code User Installer (továbbiakban VSCode) letöltése, telepítése ("pipálj" ki minden opciót)<br>
     https://code.visualstudio.com/download
 4.  VSCode futtatása, kiterjesztések (Extensions) telepítése: Ctrl-Shift-X<br>
     Kiterjesztés keresése, telepítés:
@@ -41,8 +41,7 @@
 ## Hasznos linkek:
 https://code.visualstudio.com/docs<br>
 https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf<br>
-https://git-scm.com/book/en/v2<br>
-https://stackoverflow.com/questions/46671308/maven-creating-a-java-project-that-works-in-vs-code<br>
+https://git-scm.com/book/en/v2
 
 ## Verziókezelés Git-el VS Code-ban (nagyon alap, opcionális):
 1. Github account létrehozása:<br>
@@ -73,7 +72,7 @@ https://stackoverflow.com/questions/46671308/maven-creating-a-java-project-that-
 
 ## VS Code editor beállítása:
 1. Ctrl-Shift-P vagy F1
-2. "Preferen..." gépelése
+2. "Pref..." gépelése
 3. Preferences: "Open Workplace Settings" a projektben tárolt beállításokhoz (ez az erősebb) vagy<br>
    Preferences: "Open User Settings" a felasználónált tárolt beállításokhoz<br>
    Konfig fájl workspace: projekt/.vscode/settings.json<br>
