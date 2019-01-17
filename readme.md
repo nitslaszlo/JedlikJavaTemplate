@@ -38,49 +38,43 @@
 6. App.java állomány bővítése, új osztályok létrehozása külön állományokban
 7. F5-el futtatható, tesztelhető a program
     
-## Verziók lekérdezése terminálablakból:
-git: git --version
-Marven: mvn -v
-javac: javac -version
-java: java -version
-
 ## Hasznos linkek:
-https://code.visualstudio.com/docs
-https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
-https://git-scm.com/book/en/v2
-https://stackoverflow.com/questions/46671308/maven-creating-a-java-project-that-works-in-vs-code
+https://code.visualstudio.com/docs<br>
+https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf<br>
+https://git-scm.com/book/en/v2<br>
+https://stackoverflow.com/questions/46671308/maven-creating-a-java-project-that-works-in-vs-code<br>
 
 ## Verziókezelés Git-el VS Code-ban (nagyon alap, opcionális):
-1. Github account létrehozása:
-   https://github.com/
+1. Github account létrehozása:<br>
+   https://github.com/<br>
    (nitslaszlo az account név a példában)
-2. Git repository létrehozása:
-   pl.: GitHub asztali alkalmazással vagy github.com-on
+2. Git repository létrehozása:<br>
+   pl.: GitHub asztali alkalmazással vagy github.com-on<br>
    (JedlikTsTemplate a repository neve a példában)
-3. Git konfigurálása Git CMD ablakból:
-   git config --global user.name nitslaszlo@gmail.com
+3. Git konfigurálása Git CMD ablakból:<br>
+   git config --global user.name nitslaszlo@gmail.com<br>
    git config --global credential.helper wincred
 4. Visual Studio Code indítása - project betöltése
-5. Git inicializálása a 3. ("Y") ikonnal vagy Ctrl-Shift-G
+5. Git inicializálása a 3. ("Y") ikonnal vagy Ctrl-Shift-G<br>
    majd "Initialize Repository"-ra kattint (felül)
-6. ".gitignore" fájl létrehozása (opcionális):
-   Ctrl-N -el új fájl létrehozása
-   A fájl tartalma:
-   target
-   (További mappák és fájlok megadhatóak, melyek nem kerülnek "feltöltésre")
+6. ".gitignore" fájl létrehozása (opcionális):<br>
+   Ctrl-N -el új fájl létrehozása<br>
+   A fájl tartalma:<br>
+   target<br>
+   (További mappák és fájlok megadhatóak, melyek nem kerülnek "feltöltésre")<br>
    Ctrl-S -> .gitignore néven menteni a projekt főkönyvtárába
-7. Remote repository megadása új terminál ablakból (Ctr-Shift-ö), első feltöltés
-   git commit -m "first upload"
-   git remote add origin https://github.com/nitslaszlo/JedlikTsTemplate.git
+7. Remote repository megadása új terminál ablakból (Ctr-Shift-ö), első feltöltés<br>
+   git commit -m "first upload"<br>
+   git remote add origin https://github.com/nitslaszlo/JedlikTsTemplate.git<br>
    git push -u origin master
-8. Későbbi feltöltések:
-   Ctrl-Shift-G -> Commit message megadása, majd commit Ctrl-Enter -el
+8. Későbbi feltöltések:<br>
+   Ctrl-Shift-G -> Commit message megadása, majd commit Ctrl-Enter -el<br>
    Változások szinkronizálása ("feltöltés"): Alul a státus sorban balra "Synchronize Changes" -ra kattínt
 
 ## VS Code editor beállítása:
 1. Ctrl-Shift-P vagy F1
 2. "Preferen..." gépelése
-3. Preferences: "Open Workplace Settings" a projektben tárolt beállításokhoz (ez az erősebb) vagy
-   Preferences: "Open User Settings" a felasználónált tárolt beállításokhoz
-   Konfig fájl workspace: projekt/.vscode/settings.json
+3. Preferences: "Open Workplace Settings" a projektben tárolt beállításokhoz (ez az erősebb) vagy<br>
+   Preferences: "Open User Settings" a felasználónált tárolt beállításokhoz<br>
+   Konfig fájl workspace: projekt/.vscode/settings.json<br>
    Konfig fájl user: c:/Users/UserName/AppData/Roaming/Code/User/settings.json
