@@ -3,11 +3,11 @@
 
 public class App {
     public static void main(String[] args) {
-        
 
         // 1. Adatbevitel a Scanner osztály felhasználásával:
 
-        // System.out.println("árvíztűrő tükörfúrógép - ÁRVÍZTŰRŐ TÜKÖRFÚRÓGÉP");
+        // System.out.println("árvíztűrő tükörfúrógép - ÁRVÍZTŰRŐ TÜKÖRFÚRÓGÉP
+        // );
         // System.out.print("Kérem a nevét: ");
         // Scanner s = new Scanner(System.in, "Cp852");
         // System.out.println("Hello " + s.nextLine());
@@ -17,10 +17,11 @@ public class App {
 
         // Console console = System.console();
         // if (console == null) {
-        //     System.out.println("Nincs konzol!");
-        //     return;
+        // System.out.println("Nincs konzol!");
+        // return;
         // }
-        // console.printf("árvíztűrő tükörfúrógép - ÁRVÍZTŰRŐ TÜKÖRFÚRÓGÉP\n");
+        // console.printf("árvíztűrő tükörfúrógép - ÁRVÍZTŰRŐ TÜKÖRFÚRÓGÉP
+        // n");
         // String name = console.readLine("Kérem a nevét: ");
         // console.printf("Hello %s!\n", name);
 
@@ -31,7 +32,7 @@ public class App {
         // System.out.println("A jelszó: " + pass);
 
         // 3. Egy komplexebb (OKJ-s) feladat megoldása:
-        
+
         new Királynok();
     }
 }
