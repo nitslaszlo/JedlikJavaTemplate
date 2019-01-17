@@ -5,8 +5,9 @@
 1.  Redhat Open JDK 11 letöltése:<br>
     https://developers.redhat.com/products/openjdk/download/<br>
     (pl.: java-11-openjdk-11.0.1.13-1.redhat.windows.x86_64.zip), majd:<br>
-    bin, lib, conf, stb. mappák kicsomagolása pl.: C:\Program Files\RedHat\jdk11 mappába<br>
-    Kicsomagolható korlátozott felhasználó esetén pl.: C:\Users\felhasználó_neve\AppData\Roaming\jdk11 mappába is<br>
+    bin, lib, conf, stb. mappák kicsomagolása pl.: "C:\Program Files\RedHat\jdk11" mappába<br>
+    Kicsomagolható korlátozott felhasználó esetén pl.: "C:\Users\felhasználó_neve\AppData\Roaming\jdk11" mappába is<br>
+    (AppData rejtett (hidden) mappa, kapcsold be a láthatóságát, vagy máshova csomagold ki)
 2.  Git for windows telepítése (opcionális, git-hez):<br>
     https://git-for-windows.github.io/
 3.  Visual Studio Code User Installer (továbbiakban VSCode) letöltése, telepítése ("pipálj" ki minden opciót)<br>
@@ -18,13 +19,7 @@
      - Debugger for Java (Microsoft)
      - GitLens — Git supercharged (opcionális, git-hez javasolt)<br>
        https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
-5.  Billentyűkombinációk beállítása:<br>
-    File\Preferences\Keyboard Shortcuts menüvel, vagy Ctrl-K majd Ctrl-S<br>
-    Parancs keresése: gépeléssel<br>
-    Hozzárendelés, módosítás: "ceruza" ikonra kattintással, törlés: Del bill.<br>
-    - gépel: "delete" > parancs: "Delete Line" > hozzárendel: Ctrl-L
-    - opcionális: további billentyűkombinációk hozzárendelése tetszés szerint
-6. Opcionális: VSCode beállítása: lsd. az oldal végén
+5. Opcionális: VSCode beállítása: lsd. az oldal végén
 
 ## Projekt előkészítése (inicializálása)
 1. "programNeve" mappa létrehozása
@@ -51,7 +46,7 @@ https://git-scm.com/book/en/v2
    (nitslaszlo az account név a példában)
 2. Git repository létrehozása:<br>
    pl.: GitHub asztali alkalmazással vagy github.com-on<br>
-   (JedlikTsTemplate a repository neve a példában)
+   (JedlikJavaTemplate a repository neve a példában)
 3. Git konfigurálása Git CMD ablakból:<br>
    git config --global user.name nitslaszlo@gmail.com<br>
    git config --global credential.helper wincred
@@ -60,8 +55,8 @@ https://git-scm.com/book/en/v2
    majd "Initialize Repository"-ra kattint (felül)
 6. ".gitignore" fájl létrehozása (opcionális):<br>
    Ctrl-N -el új fájl létrehozása<br>
-   A fájl tartalma:<br>
-   target<br>
+   A fájl tartalma pl.:<br>
+   tablak64.txt<br>
    (További mappák és fájlok megadhatóak, melyek nem kerülnek "feltöltésre")<br>
    Ctrl-S -> .gitignore néven menteni a projekt főkönyvtárába
 7. Remote repository megadása új terminál ablakból (Ctr-Shift-ö), első feltöltés<br>
@@ -79,3 +74,9 @@ https://git-scm.com/book/en/v2
    Preferences: "Open User Settings" a felhasználónál tárolt beállításokhoz<br>
    Konfig fájl workspace: projekt/.vscode/settings.json<br>
    Konfig fájl user: c:/Users/UserName/AppData/Roaming/Code/User/settings.json
+4. Billentyűkombinációk beállítása:<br>
+    File\Preferences\Keyboard Shortcuts menüvel, vagy Ctrl-K majd Ctrl-S<br>
+    Parancs keresése: gépeléssel<br>
+    Hozzárendelés, módosítás: "ceruza" ikonra kattintással, törlés: Del bill.<br>
+    - gépel: "delete" > parancs: "Delete Line" > hozzárendel: Ctrl-L
+    - opcionális: további billentyűkombinációk hozzárendelése tetszés szerint
