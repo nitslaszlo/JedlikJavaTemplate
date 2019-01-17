@@ -21,7 +21,7 @@
 5.  Billentyűkombinációk beállítása:<br>
     File\Preferences\Keyboard Shortcuts menüvel, vagy Ctrl-K majd Ctrl-S<br>
     Parancs keresése: gépeléssel<br>
-    Hozzárendelés, módosítás: "ceruza" ikonra kattíntással, törlés: Del bill.<br>
+    Hozzárendelés, módosítás: "ceruza" ikonra kattintással, törlés: Del bill.<br>
     - gépel: "delete" > parancs: "Delete Line" > hozzárendel: Ctrl-L
     - opcionális: további billentyűkombinációk hozzárendelése tetszés szerint
 6. Opcionális: VSCode beállítása: lsd. az oldal végén
@@ -37,8 +37,8 @@
 4. App.java állomány létrehozása a JedlikJavaTemplate sablon alapján
 5. App.java állomány kódolását "UTF-8 with BOM"-ra kell állítani az ékezetes karakterek konzolra írásához:<br>
    alul az állapotsorban kattints az "UTF-8"-ra, majd felül "Save with Encoding" -> "UTF-8 with BOM"
-6. App.java állomány bővítése, új osztályok létrehozása külön állományokban
-7. F5-el futtatható, nyomkövethető (töréspontok!) a program
+6. App.java állomány bővítése, új osztályok létrehozása külön állományokban, lsd. mintákat
+7. F5-el futtatható, vagy töréspontok elhelyezése után nyomkövethető a program
     
 ## Hasznos linkek:
 https://code.visualstudio.com/docs<br>
@@ -76,6 +76,6 @@ https://git-scm.com/book/en/v2
 1. Ctrl-Shift-P vagy F1
 2. "Pref..." gépelése
 3. Preferences: "Open Workplace Settings" a projektben tárolt beállításokhoz (ez az erősebb) vagy<br>
-   Preferences: "Open User Settings" a felasználónált tárolt beállításokhoz<br>
+   Preferences: "Open User Settings" a felhasználónál tárolt beállításokhoz<br>
    Konfig fájl workspace: projekt/.vscode/settings.json<br>
    Konfig fájl user: c:/Users/UserName/AppData/Roaming/Code/User/settings.json
