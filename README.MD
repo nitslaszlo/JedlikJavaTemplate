@@ -2,10 +2,11 @@
 #  VS Code - Java JDK11 - Git
 
 ## Java fejlesztői környezet (JDK) telepítése, beállítása
-1.  Redhat Open JDK 11 letöltése (pl.: java-11-openjdk-11.0.1.13-1.redhat.windows.x86_64.zip),<br>
+1.  Redhat Open JDK 11 letöltése:<br>
+    https://developers.redhat.com/products/openjdk/download/<br>
+    (pl.: java-11-openjdk-11.0.1.13-1.redhat.windows.x86_64.zip), majd:<br>
     bin, lib, conf, stb. mappák kicsomagolása pl.: C:\Program Files\RedHat\jdk11 mappába<br>
     Kicsomagolható korlátozott felhasználó esetén pl.: C:\Users\felhasználó_neve\AppData\Roaming\jdk11 mappába is<br>
-    https://developers.redhat.com/products/openjdk/download/
 2.  Git for windows telepítése (opcionális, git-hez):<br>
     https://git-for-windows.github.io/
 3.  Visual Studio Code User Installer (továbbiakban VSCode) letöltése, telepítése ("pipálj" ki minden opciót)<br>
@@ -15,7 +16,7 @@
      - Language Support for Java(TM) by Red Hat<br>
        https://marketplace.visualstudio.com/items?itemName=redhat.java
      - Debugger for Java (Microsoft)
-     - GitLens — Git supercharged (opcionális git-hez javasolt)<br>
+     - GitLens — Git supercharged (opcionális, git-hez javasolt)<br>
        https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
 5.  Billentyűkombinációk beállítása:<br>
     File\Preferences\Keyboard Shortcuts menüvel, vagy Ctrl-K majd Ctrl-S<br>
@@ -29,12 +30,12 @@
 1. "programNeve" mappa létrehozása
 2. VSCode indítása:<br>
     - VSCode indítása után File/Open Folder... menüpontba a "programNeve" mappa megnyitása, vagy
-    - "programNeve" mappa helyi menüből: Open with Code
+    - "programNeve" mappa helyi menüből: "Open with Code"
 3. Állományok létrehozása, szerkesztése a JedlikJavaTemplate sablon alapján:<br>
-    - .vscode\settings.json
+    - .vscode\settings.json (itt adod meg, hogy hova csomagoltad ki a JDK-t)
     - .vscode\launch.json
 4. App.java állomány létrehozása a JedlikJavaTemplate sablon alapján
-5. App.java állomány kódolását "UTF-8 with BOM"-ra kell állítani az ékezetes karakterek konzolra írásához<br>
+5. App.java állomány kódolását "UTF-8 with BOM"-ra kell állítani az ékezetes karakterek konzolra írásához:<br>
    alul az állapotsorban kattints az "UTF-8"-ra, majd felül "Save with Encoding" -> "UTF-8 with BOM"
 6. App.java állomány bővítése, új osztályok létrehozása külön állományokban
 7. F5-el futtatható, nyomkövethető (töréspontok!) a program
