@@ -11,12 +11,14 @@
 3.  Visual Studio Code User Installer (továbbiakban VSCode) letöltése, telepítése ("pipálj" ki minden opciót)<br>
     https://code.visualstudio.com/download
 4.  VSCode futtatása, kiterjesztések (Extensions) telepítése: Ctrl-Shift-X<br>
-    Kiterjesztés keresése, telepítés:
+    Kötelező és opcionális kiterjesztés keresése, telepítés:
      - Language Support for Java(TM) by Red Hat<br>
        https://marketplace.visualstudio.com/items?itemName=redhat.java
      - Debugger for Java (Microsoft)
-     - GitLens — Git supercharged<br>
+     - GitLens — Git supercharged (opcionális git-hez javasolt)<br>
        https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
+    - LaTeX Workshop (opcionális PDF állományok megjelenítésére VSCode-ban, nagyon lassú, de korrekt)<br>
+       https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop
 5.  Billentyűkombinációk beállítása:<br>
     File\Preferences\Keyboard Shortcuts menüvel, vagy Ctrl-K majd Ctrl-S<br>
     Parancs keresése: gépeléssel<br>

@@ -7,6 +7,7 @@ public class App {
 
         // 1. Adatbevitel a Scanner osztály felhasználásával:
 
+        // System.out.println("árvíztűrő tükörfúrógép - ÁRVÍZTŰRŐ TÜKÖRFÚRÓGÉP");
         // System.out.print("Kérem a nevét: ");
         // Scanner s = new Scanner(System.in, "Cp852");
         // System.out.println("Hello " + s.nextLine());
@@ -29,7 +30,8 @@ public class App {
         // String pass = String.valueOf(ch);
         // System.out.println("A jelszó: " + pass);
 
-        // 3. Egy komplexebb feladat megoldása:
+        // 3. Egy komplexebb (OKJ-s) feladat megoldása:
+        
         new Királynok();
     }
 }
