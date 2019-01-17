@@ -14,15 +14,14 @@ public class App {
 
         // 2. Adatbevitel a Console objektummal:
 
-        String str;
         Console console = System.console();
         if (console == null) {
             System.out.println("Nincs konzol!");
             return;
         }
         console.printf("árvíztűrő tükörfúrógép - ÁRVÍZTŰRŐ TÜKÖRFÚRÓGÉP\n");
-        str = console.readLine("Kérem a nevét: ");
-        console.printf("Hello %s!\n", str);
+        String name = console.readLine("Kérem a nevét: ");
+        console.printf("Hello %s!\n", name);
 
         System.out.println("Kérem a jelszót: ");
         char[] ch = console.readPassword();
