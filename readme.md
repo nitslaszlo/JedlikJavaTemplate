@@ -36,9 +36,10 @@
     - .vscode\settings.json
     - .vscode\launch.json
 4. App.java állomány létrehozása a JedlikJavaTemplate sablon alapján
-5. App.java állomány kódolását "UTF-8 with BOM"-ra kell állítani az ékezetes karakterek konzolra írásához (Save with Encoding)
+5. App.java állomány kódolását "UTF-8 with BOM"-ra kell állítani az ékezetes karakterek konzolra írásához<br>
+   alul az állapotsorban kattints az "UTF-8"-ra, majd felül "Save with Encoding" -> "UTF-8 with BOM"
 6. App.java állomány bővítése, új osztályok létrehozása külön állományokban
-7. F5-el futtatható, tesztelhető a program
+7. F5-el futtatható, nyomkövethető (töréspontok!) a program
     
 ## Hasznos linkek:
 https://code.visualstudio.com/docs<br>
