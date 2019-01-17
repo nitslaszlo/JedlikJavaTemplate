@@ -41,6 +41,5 @@ public class Királynok // 0. feladat
                 e.printStackTrace();
             }
         }
-
     }
 }

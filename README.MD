@@ -1,5 +1,5 @@
 
-#  VS Code - Java JDK11 - Git
+#  VS Code - Java RedHat JDK 11 - Git
 
 ## Java fejlesztői környezet (JDK) telepítése, beállítása
 1.  Redhat Open JDK 11 letöltése:<br>
