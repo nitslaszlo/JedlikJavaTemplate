@@ -2,7 +2,7 @@
 #  VS Code - Java JDK11 - Git
 
 ## Java fejlesztői környezet (JDK) telepítése, beállítása
-1.  Redhat Open JDK11 letöltése (pl.: java-11-openjdk-11.0.1.13-1.redhat.windows.x86_64.zip),<br>
+1.  Redhat Open JDK 11 letöltése (pl.: java-11-openjdk-11.0.1.13-1.redhat.windows.x86_64.zip),<br>
     bin, lib, conf, stb. mappák kicsomagolása pl.: C:\Program Files\RedHat\jdk11 mappába<br>
     Kicsomagolható korlátozott felhasználó esetén pl.: C:\Users\felhasználó_neve\AppData\Roaming\jdk11 mappába is<br>
     https://developers.redhat.com/products/openjdk/download/
