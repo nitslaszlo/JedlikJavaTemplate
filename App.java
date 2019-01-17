@@ -1,5 +1,5 @@
 ﻿// import java.util.Scanner;
-import java.io.Console;
+// import java.io.Console;
 
 public class App {
     public static void main(String[] args) {
@@ -14,19 +14,22 @@ public class App {
 
         // 2. Adatbevitel a Console objektummal:
 
-        Console console = System.console();
-        if (console == null) {
-            System.out.println("Nincs konzol!");
-            return;
-        }
-        console.printf("árvíztűrő tükörfúrógép - ÁRVÍZTŰRŐ TÜKÖRFÚRÓGÉP\n");
-        String name = console.readLine("Kérem a nevét: ");
-        console.printf("Hello %s!\n", name);
+        // Console console = System.console();
+        // if (console == null) {
+        //     System.out.println("Nincs konzol!");
+        //     return;
+        // }
+        // console.printf("árvíztűrő tükörfúrógép - ÁRVÍZTŰRŐ TÜKÖRFÚRÓGÉP\n");
+        // String name = console.readLine("Kérem a nevét: ");
+        // console.printf("Hello %s!\n", name);
 
-        System.out.println("Kérem a jelszót: ");
-        char[] ch = console.readPassword();
+        // System.out.println("Kérem a jelszót: ");
+        // char[] ch = console.readPassword();
 
-        String pass = String.valueOf(ch);
-        System.out.println("A jelszó: " + pass);
+        // String pass = String.valueOf(ch);
+        // System.out.println("A jelszó: " + pass);
+
+        // 3. Egy komplexebb feladat megoldása:
+        new Királynok();
     }
 }
